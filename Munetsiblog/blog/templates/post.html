@@ -1,0 +1,16 @@
+{%load staticfiles%}
+
+<!DOCTYPE html>
+<html lang= eng>
+<head>
+  <title>
+    Munetsiblog
+  </title>
+  <link rel = 'stylesheet' href = "{%static 'detail.css'%}" type = "text/css" >
+</head>
+<body>
+ <h1>{{detail.title}}</h1>{{detail.timestamp}}
+ <p>{{detail.body}}</p>
+ 
+</body>
+</html>

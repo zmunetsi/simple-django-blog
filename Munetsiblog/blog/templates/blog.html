@@ -1,0 +1,29 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang= eng>
+<head>
+  <title>
+    Munetsiblog
+  </title>
+  <link rel="stylesheet" href="{% static 'blog.css' %}" type = "text/css">
+</head>
+<body>
+  <h1>Welcome To my blog</h1>
+ 
+  <div  class = 'container'>
+    <h1>Created using Django webframework</h1>
+    <p>Lets learn Django together</p>
+  </div>
+  <div>
+  {%for post in posts%}
+    <p><span id='title'>{{post.title}}</span> :{{post.timestamp}}</p>
+	<p>{{post.body|truncatewords:30}}</p>
+	<a href="{{post.id}}/">Read more</a>
+	<hr>
+{%endfor%}
+  </div>
+  <div></div>
+  
+</body>
+</html>
