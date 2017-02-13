@@ -1,0 +1,103 @@
+     td img {
+		 filter: grayscale(0%);
+		 transition: filter 0.5s;
+	 }
+	 td:hover img{
+		 filter: grayscale(100%);
+	 }
+ 
+       td{
+	  padding : 20px;
+	  position: relative;
+	  transition: height 5s,
+	              width 5s;
+				  
+				
+	
+	  }
+	  	td:hover {
+		background-color: #FDF3E7;
+		height: 300px;
+		width: 300px;
+	}
+	td p {
+	font-family: "Tangerine" ,serif;
+    font-size:26px;	
+	}
+	
+	  .header li {
+	  display: inline;
+	  }
+	  .header ul {
+	  padding-left: 700px;
+	  padding-top: 10px;
+	  }
+	  .header a {
+	  text-decoration: none;
+	  color: black;
+	  }
+	  #customer {
+	  width: 150px;
+	  border-radius: 100px;
+	  
+	  }
+	  .footer {
+	  margin-top: 10px;
+	  }
+	  .reviews {
+	  padding-left: 20px;
+	  }
+	 
+	  #featured {
+	  padding-left: 20px;
+	  font-family: "Proza Libre" ,serif;
+	  
+	  }
+	  #logo {
+	  margin-top: 10px;
+	  margin-bottom: -30px;
+	  padding-left: 20px;
+	  }
+	  .qoute{ 
+	  background-color: #FDF3E7;
+	  border-radius: 100px;
+	  }
+	  .about{
+	  padding: 20px;
+	  background-image: url("images/background.jpg");
+	  }
+	
+	  #search input {
+	  border-top: black;
+	  }
+	  #products {
+	  font-family: cursive;
+	  color: red;
+	  font-size: 16px;
+	  border-radius: 10px;
+	  margin-left: 20px;
+	  transition: opacity 0.5s;
+	  }
+	  .team img{
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	
+	}
+	figure{
+	text-align: center;
+	}
+	figure div{
+	
+	text-align: center;
+	display: inline-block;
+	margin: 10px;
+	}
+	figure h3 {
+	font-family: "Verdana";
+	font-size: 15px;
+	}
+	
+
+
+	
